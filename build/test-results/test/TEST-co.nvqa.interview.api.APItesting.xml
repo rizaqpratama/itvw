@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.nvqa.interview.api.APItesting" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-07T04:10:20" hostname="rizaq-pratama-mbp.local" time="0.762">
+  <properties/>
+  <testcase name="testJsonPlaceholder()" classname="co.nvqa.interview.api.APItesting" time="0.762"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

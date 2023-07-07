@@ -9,24 +9,26 @@ asumption:
 
 **/
 import java.util.List;
+
+import org.junit.jupiter.api.Test;
+
 import java.util.Arrays;
 import java.util.Collections;
 
 public class FindMissingNumber
 {
-    public static void main(String[] args) {
+
+    @Test
+    public  void test() {
         
-        FindMissingNumber p = new FindMissingNumber();
-
-
         // test
         // 1 missing number
         List<Integer> input1 = Arrays.asList(4,1,3,5,7,6);
-        System.out.println(p.findMissingNumber(input1));
+        System.out.println(findMissingNumber(input1));
 
         // no missing number
         List<Integer> input2 = Arrays.asList(4,1,2,3,5,7,6);
-        System.out.println(p.findMissingNumber(input2));
+        System.out.println(findMissingNumber(input2));
 	}
 
     public Integer findMissingNumber(List<Integer> input) {
